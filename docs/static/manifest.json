@@ -1,6 +1,6 @@
 {
-  "name": "travel-guide-ui",
-  "short_name": "travel-guide-ui",
+  "name": "Travel Guide by Espresso",
+  "short_name": "Travel Guide",
   "icons": [
     {
       "src": "./img/icons/android-chrome-192x192.png",
