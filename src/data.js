@@ -2,9 +2,37 @@ export default {
   trips: [
     {
       'id': 0,
-      'url': 'https://upload.wikimedia.org/wikipedia/commons/5/53/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg',
+      'url': 'http://images.kuoni.co.uk/73/thailand-40160182-1482924456-ImageGalleryLightboxLarge.jpg',
+      'name': 'Thailand',
+      'info': 'Thailand is a Southeast Asian country. It\'s known for tropical beaches, opulent royal palaces, ancient ruins and ornate temples displaying figures of Buddha',
+      'steps': [
+        {
+          'name': 'Grand Palace',
+          'url': 'http://static.asiawebdirect.com/m/bangkok/portals/bangkok-com/homepage/attraction-palace/grand-palace/placeInfoParagraphs/014/image/royal-reception-hall-bangkok.jpg',
+          'info': 'Grand Palace\'s information'
+        },
+        {
+          'name': 'Wat Phra Kaew',
+          'url': 'https://s3.amazonaws.com/gttwl/attachments/global/1408391264_large.jpeg',
+          'info': 'Wat Phra Kaew\'s information'
+        },
+        {
+          'name': 'Phi Phi Island',
+          'url': 'https://traveldigg.com/wp-content/uploads/2016/07/Phi-Phi-Island-Boats.jpg',
+          'info': 'Phi Phi Island\'s information'
+        },
+        {
+          'name': 'Khao Yai',
+          'url': 'http://static.asiawebdirect.com/m/phuket/portals/thaiwave-com/shared/teasersL/hotels/khao-yai/teaserMultiLarge/image/khao-yai-hotels-L.jpg',
+          'info': 'Khao Yai\'s information'
+        }
+      ]
+    },
+    {
+      'id': 1,
+      'url': 'http://kids.nationalgeographic.com/content/dam/kids/photos/Countries/H-P/italy-coliseum.ngsversion.1396531685420.jpg',
       'name': 'Italy',
-      'info': 'Italy, a European country with a long Mediterranean coastline, has left a powerful mark on Western culture and cuisine. Its capital, Rome, is home to the Vatican as well as landmark art and ancient ruins.',
+      'info': 'Italy, a European country with a long Mediterranean coastline, has left a powerful mark on Western culture and cuisine.',
       'steps': [
         {
           'name': 'Colosseum',
@@ -29,7 +57,7 @@ export default {
       ]
     },
     {
-      'id': 1,
+      'id': 2,
       'url': 'https://en.parisinfo.com/var/otcp/sites/images/node_43/node_51/node_233/visuel-carrousel-dossier-ou-sortir-le-soir-a-paris-740x380-c-dr/16967596-1-fre-FR/Visuel-carrousel-dossier-Ou-sortir-le-soir-a-Paris-740x380-C-DR.jpg',
       'name': 'Paris',
       'info': 'Paris, France\'s capital, is a major European city and a global center for art, fashion, gastronomy and culture',
@@ -48,34 +76,6 @@ export default {
           'name': 'Arc de Triomphe',
           'url': 'https://en.parisinfo.com/var/otcp/sites/images/media/1.-photos/02.-sites-culturels-630-x-405/arc-de-triomphe-ciel-bleu-630x405-c-thinkstock/35684-1-fre-FR/Arc-de-Triomphe-ciel-bleu-630x405-C-Thinkstock.jpg',
           'info': 'Arc de Triomphe\'s information'
-        }
-      ]
-    },
-    {
-      'id': 2,
-      'url': 'http://images.kuoni.co.uk/73/thailand-40160182-1482924456-ImageGalleryLightboxLarge.jpg',
-      'name': 'Thailand',
-      'info': 'Thailand is a Southeast Asian country. It\'s known for tropical beaches, opulent royal palaces, ancient ruins and ornate temples displaying figures of Buddha',
-      'steps': [
-        {
-          'name': 'Grand Palace',
-          'url': 'http://static.asiawebdirect.com/m/bangkok/portals/bangkok-com/homepage/attraction-palace/grand-palace/placeInfoParagraphs/014/image/royal-reception-hall-bangkok.jpg',
-          'info': 'Grand Palace\'s information'
-        },
-        {
-          'name': 'Wat Phra Kaew',
-          'url': 'https://s3.amazonaws.com/gttwl/attachments/global/1408391264_large.jpeg',
-          'info': 'Wat Phra Kaew\'s information'
-        },
-        {
-          'name': 'Phi Phi Island',
-          'url': 'https://traveldigg.com/wp-content/uploads/2016/07/Phi-Phi-Island-Boats.jpg',
-          'info': 'Phi Phi Island\'s information'
-        },
-        {
-          'name': 'Khao Yai',
-          'url': 'http://static.asiawebdirect.com/m/phuket/portals/thaiwave-com/shared/teasersL/hotels/khao-yai/teaserMultiLarge/image/khao-yai-hotels-L.jpg',
-          'info': 'Khao Yai\'s information'
         }
       ]
     }
