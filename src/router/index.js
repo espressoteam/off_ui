@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import HomeView from '@/components/HomeView'
 import DetailView from '@/components/DetailView'
+import AboutView from '@/components/AboutView'
 
 Vue.use(Router)
 
@@ -16,6 +17,11 @@ export default new Router({
       path: '/detail/:id',
       name: 'detail',
       component: DetailView
+    },
+    {
+      path: '/about',
+      name: 'about',
+      component: AboutView
     }
   ]
 })
