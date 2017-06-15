@@ -17,7 +17,7 @@
     </v-card>
     <v-layout row wrap>
       <v-flex xs12 md6>
-        <gmap-map :center="center" :zoom="8" map-type-id="terrain" style="height: 300px">
+        <gmap-map :center="center" :zoom="12" map-type-id="terrain" style="height: 300px">
           <gmap-marker :key="index" v-for="(m, i) in item.steps" :position="m.position" :clickable="true" :draggable="true" @click="center=m.position" :title="i" :icon="getMarkerIcon(i)"></gmap-marker>
         </gmap-map>
       </v-flex>
